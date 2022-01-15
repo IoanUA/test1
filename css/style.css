@@ -1,64 +1,101 @@
 :root {
-    --second-text-color: #ffffff;
-    --first-text-color: #999999;
-    --first-title-color: #ffffff;
-    --button-color: #ffffff;
+  --second-text-color: #ffffff;
+  --first-text-color: #999999;
+  --first-title-color: #ffffff;
+  --button-color: #ffffff;
+  --second-title-color: #323232;
 }
 
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* ------------navigation */
 .link-nav {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
 
-    color: var(--second-text-color);
+  color: var(--second-text-color);
 }
 
 .header {
-    background-color: aqua;
+  background-color: aqua;
 }
 /* --------Hero---------- */
 .hero-text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
 
-    text-align: center;
+  text-align: center;
 
-    color: var(--second-text-color);
+  color: var(--second-text-color);
 }
 .hero {
-    background-color: turquoise;
+  background-color: turquoise;
 }
 
 .hero-title {
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 1.33;
-    text-align: center;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
 
-    color: var(--first-title-color);
+  color: var(--first-title-color);
 }
 
 .hero-button {
-    font-family: Montserrat;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
-    text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
 
-    color: var(--button-color);
-    background-color: black;
+  color: var(--button-color);
+  background-color: black;
+}
+/* ----About---- */
+.about-title {
+  font-size: 36px;
+  line-height: 1.47;
+  text-align: center;
+
+  color: var(--second-title-color);
+}
+.about-text {
+  font-size: 16px;
+  line-height: 1.56;
+  text-align: center;
+  color: var(--first-text-color);
+}
+.about-list-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000000;
+}
+.about-list-text {
+  font-size: 14px;
+  line-height: 1.57;
+
+  color: var(--first-text-color);
+}
+.about-button {
+  font-family: Montserrat;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+
+  color: var(--button-color);
 }
