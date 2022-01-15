@@ -1,6 +1,8 @@
 :root {
-    --second-text-color: ##ffffff;
+    --second-text-color: #ffffff;
     --first-text-color: #999999;
+    --first-title-color: #ffffff;
+    --button-color: #ffffff;
 }
 
 .link {
@@ -21,9 +23,42 @@ body {
     font-size: 16px;
     line-height: 1.25;
 
-    color: #ffffff;
+    color: var(--second-text-color);
 }
 
 .header {
     background-color: aqua;
+}
+/* --------Hero---------- */
+.hero-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+
+    text-align: center;
+
+    color: var(--second-text-color);
+}
+.hero {
+    background-color: turquoise;
+}
+
+.hero-title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1.33;
+    text-align: center;
+
+    color: var(--first-title-color);
+}
+
+.hero-button {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+
+    color: var(--button-color);
+    background-color: black;
 }
