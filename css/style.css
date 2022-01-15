@@ -4,6 +4,7 @@
   --first-title-color: #ffffff;
   --button-color: #ffffff;
   --second-title-color: #323232;
+  --accent-color :#4985FF;
 }
 
 .link {
@@ -132,4 +133,48 @@ body {
   font-size: 16px;
   line-height: 1.25;
   color: var(--first-text-color);
+}
+
+.work-title{
+  
+  font-size: 36px;
+  line-height: 1.47;
+    color: var(--first-title-color);
+    background-color: violet;
+
+}
+
+.work-button {
+  font-family: Montserrat;
+   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+   color: var(--button-color)
+}
+
+.work-item-title {
+font-weight: 600;
+font-size: 18px;
+line-height: 1.22;
+color: var(--second-title-color);
+}
+
+.work-item-title span {
+  color: var(--accent-color)
+}
+
+.work-item-text {
+
+  font-size: 16px;
+  line-height: 1.56;
+  color: var(--first-text-color)
+}
+
+.work-item-link {
+  
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--accent-color)
+
 }
