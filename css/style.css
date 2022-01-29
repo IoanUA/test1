@@ -63,6 +63,8 @@ body {
 }
 /* --------Hero---------- */
 .hero-text {
+    margin-bottom: 20px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
@@ -73,9 +75,23 @@ body {
 }
 .hero {
     background-color: turquoise;
+    background-image: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+        ),
+        url(../img/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 319px;
+    padding-bottom: 335px;
 }
 
 .hero-title {
+    max-width: 830px;
+    margin: 0 auto 50px;
+
     font-weight: 800;
     font-size: 48px;
     line-height: 1.33;
@@ -85,6 +101,10 @@ body {
 }
 
 .hero-button {
+    display: block;
+    margin: 0 auto; 
+    min-width: 200px;
+    height: 45px;
     font-family: Montserrat;
     font-weight: 500;
     font-size: 16px;
@@ -92,7 +112,10 @@ body {
     text-align: center;
 
     color: var(--button-color);
-    background-color: black;
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 30px;
+
 }
 /* ----About---- */
 .about-title {
