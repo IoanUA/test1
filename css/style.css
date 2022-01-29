@@ -161,6 +161,10 @@ body {
   border-radius: 50%;
 }
 
+.about-icon {
+  fill: #4985ff;
+}
+
 .about-title {
   width: 739px;
 
