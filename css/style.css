@@ -265,26 +265,58 @@ body {
   line-height: 1.25;
   color: var(--first-text-color);
 }
-
+/* WORK */
+.work {
+  padding-top: 100px;
+  padding-bottom: 85px;
+  background-image: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%);
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+}
+.work-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .work-title {
+  width: 540px;
   font-size: 36px;
   line-height: 1.47;
   color: var(--first-title-color);
-  background-color: violet;
+  margin-bottom: 70px;
+  /* background-color: violet; */
 }
 
 .work-button {
+  min-width: 200px;
+  height: 45px;
   font-family: Montserrat;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
+  text-align: center;
+
   color: var(--button-color);
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 30px;
 }
 
+.work-list {
+  display: flex;
+  margin-left: -30px;
+  margin-bottom: 85px;
+}
+.work-item {
+  width: calc(100% / 3 - 30px);
+  margin-left: 30px;
+}
 .work-item-title {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.22;
+  margin-top: 30px;
+  margin-bottom: 30px;
   color: var(--second-title-color);
 }
 
@@ -295,6 +327,7 @@ body {
 .work-item-text {
   font-size: 16px;
   line-height: 1.56;
+  margin-bottom: 30px;
   color: var(--first-text-color);
 }
 
@@ -304,7 +337,9 @@ body {
   line-height: 1.25;
   color: var(--accent-color);
 }
-
+.work-line {
+  border-bottom: 1px solid #e0e0e0;
+}
 /* -----------projects section------- */
 .projects-title {
   font-size: 36px;
