@@ -308,12 +308,15 @@ body {
 
 .work-list {
   display: flex;
+  flex-wrap: wrap;
   margin-left: -30px;
+  margin-bottom: -30px;
   margin-bottom: 85px;
 }
 .work-item {
   width: calc(100% / 3 - 30px);
   margin-left: 30px;
+  margin-bottom: 30px;
 }
 .work-item-title {
   font-weight: 600;
